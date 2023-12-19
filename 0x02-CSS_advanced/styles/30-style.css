@@ -672,6 +672,14 @@ ul.row {
   overflow: hidden;
 }
 
+.card-work .card-title {
+  text-align: center;
+  margin: 0;
+  opacity: 0;
+  height: 100%;
+  position: relative;
+}
+
 .card-work .card-image img {
   height: 30rem;
   width: 100%;
@@ -691,7 +699,7 @@ ul.row {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-.card-work .card-title {
+.card-work .card-title a {
   display: block;
   text-decoration: none;
   padding-top: 45%;
